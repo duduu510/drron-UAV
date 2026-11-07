@@ -1,0 +1,106 @@
+{
+  "run_ids_differ": true,
+  "equal": {
+    "coverage": true,
+    "cost_breakdown_yuan": true,
+    "cost_partial_yuan": true,
+    "return_time_min": true,
+    "schedule_events": true,
+    "sorties": true
+  },
+  "actual_coverage": {
+    "physical_total": 977,
+    "physical_completed": 39,
+    "directional_candidates": 1954,
+    "directional_selected": 39,
+    "original_intervals": 275,
+    "original_intervals_completed": 11
+  },
+  "partial_cost_yuan": 3307.1151666666665,
+  "baseline_report": {
+    "passed": false,
+    "checks": [
+      {
+        "name": "schema",
+        "status": "pass"
+      },
+      {
+        "name": "identity",
+        "status": "pass"
+      },
+      {
+        "name": "scope",
+        "status": "pass"
+      },
+      {
+        "name": "geometry",
+        "status": "pass"
+      },
+      {
+        "name": "service",
+        "status": "pass"
+      },
+      {
+        "name": "coverage",
+        "status": "pass"
+      },
+      {
+        "name": "time",
+        "status": "pass"
+      },
+      {
+        "name": "energy",
+        "status": "pass"
+      },
+      {
+        "name": "stock",
+        "status": "pass"
+      },
+      {
+        "name": "initial",
+        "status": "pass"
+      },
+      {
+        "name": "continuity",
+        "status": "pass"
+      },
+      {
+        "name": "return",
+        "status": "pass"
+      },
+      {
+        "name": "sorties",
+        "status": "pass"
+      },
+      {
+        "name": "synchronization",
+        "status": "pass"
+      },
+      {
+        "name": "devices",
+        "status": "pass"
+      },
+      {
+        "name": "window",
+        "status": "pass"
+      },
+      {
+        "name": "completion",
+        "status": "fail"
+      },
+      {
+        "name": "cost",
+        "status": "pass"
+      }
+    ],
+    "violations": [
+      {
+        "check": "completion",
+        "message": "不完整调度不能通过仿真基线校验"
+      }
+    ],
+    "scope": "simulation-baseline",
+    "publishable": false
+  },
+  "local_provenance": "本机新计算的仿真基线（研究模型）"
+}

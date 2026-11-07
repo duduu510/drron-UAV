@@ -1,0 +1,134 @@
+{
+  "algorithm_version": "greedy-station-return/0.1",
+  "run_id": "968c54ea-c0f4-43ba-9122-554430f12bb3",
+  "solution_id": "c08f8e98-cec3-49fd-a050-2591a434af1b",
+  "project_id": "60f8df97-f2fb-43f7-8ae9-a24cc656985c",
+  "input_hash": "d04e37b2ee8acc4e7079a0f0a703cd0b1ebccff3deb558ca7b891fafc9d11f00",
+  "source_mode": "simulation",
+  "complete": false,
+  "coverage": {
+    "directional_candidates": 1954,
+    "directional_selected": 39,
+    "original_intervals": 275,
+    "original_intervals_completed": 11,
+    "physical_completed": 39,
+    "physical_total": 977
+  },
+  "return_time_min": 239.76966666666667,
+  "cost_total_yuan": null,
+  "cost_partial_yuan": 3307.1151666666665,
+  "baseline_validation": {
+    "checks": [
+      {
+        "name": "schema",
+        "status": "pass"
+      },
+      {
+        "name": "identity",
+        "status": "pass"
+      },
+      {
+        "name": "scope",
+        "status": "pass"
+      },
+      {
+        "name": "geometry",
+        "status": "pass"
+      },
+      {
+        "name": "service",
+        "status": "pass"
+      },
+      {
+        "name": "coverage",
+        "status": "pass"
+      },
+      {
+        "name": "time",
+        "status": "pass"
+      },
+      {
+        "name": "energy",
+        "status": "pass"
+      },
+      {
+        "name": "stock",
+        "status": "pass"
+      },
+      {
+        "name": "initial",
+        "status": "pass"
+      },
+      {
+        "name": "continuity",
+        "status": "pass"
+      },
+      {
+        "name": "return",
+        "status": "pass"
+      },
+      {
+        "name": "sorties",
+        "status": "pass"
+      },
+      {
+        "name": "synchronization",
+        "status": "pass"
+      },
+      {
+        "name": "devices",
+        "status": "pass"
+      },
+      {
+        "name": "window",
+        "status": "pass"
+      },
+      {
+        "name": "completion",
+        "status": "fail"
+      },
+      {
+        "name": "cost",
+        "status": "pass"
+      }
+    ],
+    "passed": false,
+    "publishable": false,
+    "scope": "simulation-baseline",
+    "violations": [
+      {
+        "check": "completion",
+        "message": "不完整调度不能通过仿真基线校验"
+      }
+    ]
+  },
+  "config": {
+    "team_count": 4,
+    "max_length_km": 0.5,
+    "window_min": 240,
+    "seed": 7,
+    "vehicle_speed_kmh": 30,
+    "drone_speed_kmh": 18,
+    "drone_endurance_min": 40,
+    "vehicle_range_km": 100,
+    "drone_min_soc": 20,
+    "vehicle_min_soc": 10,
+    "swap_min": 2,
+    "swap_stock": 8,
+    "launch_min": 0.5,
+    "land_min": 0.5,
+    "vehicle_fixed_yuan": 400,
+    "drone_fixed_yuan": 50,
+    "vehicle_km_yuan": 1.5,
+    "vehicle_min_yuan": 1,
+    "swap_yuan": 6,
+    "assume_service_at_all_stations": true,
+    "depot_station_id": "cn-xian-zhonglou"
+  },
+  "elapsed_seconds": 1.057765300036408,
+  "exported_files": {
+    "project": "project.json",
+    "solution": "solution.json",
+    "reproducibility": "reproducibility.json"
+  }
+}

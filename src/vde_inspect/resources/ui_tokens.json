@@ -1,0 +1,49 @@
+{
+  "product_name": "VDE-Inspect",
+  "target_platform": "Windows 10/11",
+  "ui_framework": "PySide6 QtWidgets",
+  "reference_resolution": [
+    1440,
+    900
+  ],
+  "min_resolution": [
+    1280,
+    720
+  ],
+  "sidebar_width": 240,
+  "topbar_height": 64,
+  "content_padding": 24,
+  "color": {
+    "sidebar": "#111317",
+    "primary": "#1467E8",
+    "primary_dark": "#0D3680",
+    "primary_light": "#EAF2FF",
+    "surface": "#FFFFFF",
+    "surface_alt": "#F5F8FC",
+    "border": "#E2E8F1",
+    "text": "#17243A",
+    "muted": "#64748B",
+    "success": "#168252"
+  },
+  "corner_radius_px": {
+    "card": 12,
+    "button": 10
+  },
+  "navigation": [
+    "综合驾驶舱",
+    "巡检任务",
+    "设备与能源",
+    "智能调度",
+    "方案管理",
+    "仿真回放",
+    "实验分析",
+    "系统设置"
+  ],
+  "no_web": true,
+  "data_source_modes": [
+    "precomputed",
+    "solver",
+    "simulation"
+  ],
+  "notes": "配图的线路形状为示意，所有指标须从实际方案读取"
+}
